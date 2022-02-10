@@ -1,0 +1,23 @@
+.questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  list-style-type: none;
+  text-align: left;
+}
+
+.response-button {
+  background-color: purple;
+  padding: 2px 60px;
+  border-radius: 10% 10%;
+  color: white;
+}
+
+.questions li {
+  margin-bottom: 20px;
+}
+
+.response-button:hover {
+  background-color: lightpink;
+  cursor: pointer;
+}
